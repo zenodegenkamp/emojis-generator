@@ -1,0 +1,78 @@
+html {
+    height: 100vh;
+    font-family: Baloo;
+}
+
+body {
+    padding: 10px;
+     background: linear-gradient(45deg, #f77f00, #d62828);
+}
+
+#box-wrapper {
+    background-color: #252422;
+    height: 50%;
+    margin-top: 70px;
+    padding: 20px 20px;
+    border-radius: 60px;
+}
+
+#hero-title {
+    color: #fffcf2;
+    margin-bottom: 30px;
+}
+
+#emoji-container {
+    margin: 40px auto;
+    padding: 25px 0px;
+    text-align: center;
+    border: 5px solid #403d39;
+    border-radius: 60px;
+    width: 70%;
+    text-shadow: -3px 0 #403d39, 0 3px #403d39, 3px 0 #403d39, 0 -3px #403d39;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push-btn, #unshift-btn {
+    background-color: #273549;
+    color: #f77f00;
+}
+
+#shift-btn,#pop-btn {
+    background-color: #273549;
+    color: #d62828;
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    display: block;
+    border: none;
+    height: 30px;
+    background: #273549;
+    border-radius: 6px;
+    text-align: center;
+}
+
+button {
+    font-family: Baloo;
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
